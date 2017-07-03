@@ -50,6 +50,33 @@
   float: left;
 }
 
+
+/*best Prices*/
+.bestPrices{
+  text-align: center;
+  background: $color-blue;
+  h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    color: $color-text;
+  }
+  &__parrafosPrice{
+    font-family: 'Roboto', sans-serif;
+    color:lighten(black, 80%);
+    font-size: 2.5vh;
+   }&--orange{
+     color:$color-orange;
+   }
+  }
+
+.subtitle{
+  color:$color-text;
+  font-size: 1.5vh;
+}
+.title {
+  font-family: 'Raleway', sans-serif;
+
 #navg{
   background-color: #27AD60;
 }
@@ -60,6 +87,7 @@
   background-repeat: no-repeat;
   color: $color-text;
   height: 60vh;
+
   text-align: center;
 }
 
@@ -171,6 +199,35 @@ span {
   text-align: center;
 
 }
+
+
+  &--color25 {
+  background-color: #DC403B;
+  }
+}
+
+.imagen{
+	 background-image: url(../img/img-divider-img.jpg);
+	    whidth: 100%;
+	    height:500px;
+	    display:flex;
+	    justify-content:center;
+	    align-items:center;
+	    &__sociales{
+	    padding:20px;
+      color:$color-text;
+	    }
+
+}
+.footer{
+  background-color:$color-green;
+  &__informacion{
+  color:$color-text;
+  padding:10px;
+  text-align:center;
+  }
+}
+
 
 [class*="col-"] {
     min-height: 7px;
