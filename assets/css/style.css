@@ -1,33 +1,19 @@
 /*
-Error: Invalid CSS after "...21276d701cb0763": expected "{", was "}"
-        on line 181 of src/scss/style.scss
+Error: Invalid CSS after "        }": expected "}", was ""
+        on line 289 of src/scss/style.scss
 
-176: 
-177: .title {
-178:   font-family: 'Raleway', sans-serif;
-179:   text-align: center;
-180: >>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763
-181: }
-182: 
-183: [class*="col-"] {
-184:     min-height: 7px;
-185:     padding: 12px;
-186:     float: left;
+284:             align-items: center;
+285:             &__sociales {
+286:                 padding: 20px;
+287:             }
+288:         }
 
 Backtrace:
-src/scss/style.scss:181
+src/scss/style.scss:289
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:667:in `block'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
@@ -54,4 +40,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...21276d701cb0763\": expected \"{\", was \"}\"\A         on line 181 of src/scss/style.scss\A \A 176: \A 177: .title {\A 178:   font-family: 'Raleway', sans-serif;\A 179:   text-align: center;\A 180: >>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763\A 181: }\A 182: \A 183: [class*=\"col-\"] {\A 184:     min-height: 7px;\A 185:     padding: 12px;\A 186:     float: left;"; }
+  content: "Error: Invalid CSS after \"        }\": expected \"}\", was \"\"\A         on line 289 of src/scss/style.scss\A \A 284:             align-items: center;\A 285:             &__sociales {\A 286:                 padding: 20px;\A 287:             }\A 288:         }"; }

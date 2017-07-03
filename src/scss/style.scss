@@ -32,7 +32,7 @@
 }
 
 .row {
-<<<<<<< HEAD
+
     &:before {
         content: " ";
         display: table;
@@ -41,15 +41,7 @@
         @extend .row:before;
         clear: both;
     }
-=======
-  &:before{
-    content: " ";
-    display: table;
-  }
-  &:after{
-    @extend .row:before;
-    clear: both;
-  }
+
 }
 
 [class*="col-"]{
@@ -177,7 +169,7 @@ span {
 .title {
   font-family: 'Raleway', sans-serif;
   text-align: center;
->>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763
+
 }
 
 [class*="col-"] {
