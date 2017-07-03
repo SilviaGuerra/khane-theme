@@ -1,3 +1,5 @@
+@import '_variables';
+
 @function anchoColumnas($columns) {
   @return percentage(($columns/12));
 }
@@ -5,6 +7,12 @@
 @for $numColumna from 1 through 12 {
   .col-#{$numColumna}{
     width: anchoColumnas($numColumna);
+  }
+}
+
+@for $numColumna from 1 through 12{
+  .col-#{$numColumna}-offset{
+    margin-left:anchoColumnas($numColumna)
   }
 }
 
