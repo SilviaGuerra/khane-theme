@@ -1,3 +1,19 @@
+.aboutUs {
+  background-color: #2C3E50;
+  text-align: center;
+  color: white; }
+  .aboutUs__parrafos {
+    text-align: justify;
+    padding-left: 20px; }
+
+.barras__barra {
+  background-color: gray;
+  width: 100%;
+  height: 8px; }
+  .barras__barra--html {
+    background-color: #EE7239;
+    width: 80%; }
+
 .col-1 {
   width: 8.33333%; }
 
@@ -91,6 +107,7 @@
   padding: 12px;
   float: left; }
 
+
 /*best Prices*/
 .bestPrices {
   text-align: center;
@@ -111,67 +128,171 @@
   color: white;
   font-size: 1.5vh; }
 
+#navg {
+  background-color: #27AD60; }
+
+#header {
+  background-image: url("../img/carousel-bg.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 60vh;
+  text-align: center; }
+
+h1 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 20px; }
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+  color: #fff; }
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff; }
+
+span {
+  margin: 0 100px;
+  font-weight: 900;
+  display: inline-block; }
+
+#bestPrice {
+  background: #2C3E50;
+  color: #fff;
+  height: 700px; }
+
+.titulo_bestPrice {
+  padding: 50px; }
+
+#starter, #basic, #feature, #professional {
+  border: 1px solid #27AD60;
+  width: 240px;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 45px;
+  padding: 0; }
+
+#feature {
+  border: 1px solid #e67e22;
+  margin-top: 20px; }
+
+.paquete_titulo {
+  padding: 20px; }
+
+.verde {
+  background: #27AD60;
+  padding: 30px; }
+
+.paquete_precio {
+  font-size: 40px; }
+
+.paquete_precio--chiquita {
+  font-size: 10px;
+  padding-top: 15px; }
+
+.paquete_contenido {
+  height: 35px;
+  padding: 10px; }
+
+.blanco {
+  background: #fff;
+  color: #2C3E50; }
+
+.btn-cafe {
+  background: #443e44;
+  border: none;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin: 30px;
+  font-size: 15px; }
+
+/*best Prices*/
+.bestPrices {
+  text-align: right; }
+  .bestPrices__parrafosPrice {
+    color: #fff; }
+
+
 .title {
   font-family: 'Raleway', sans-serif;
   text-align: center; }
 
-table {
-  border-collapse: collapse;
-  margin-bottom: 1vh; }
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
 
-.box {
-  height: 140px;
-  width: 200px; }
-  .box--color1 {
-    background-color: #69D2E7; }
-  .box--color2 {
-    background-color: #A7DBDB; }
-  .box--color3 {
-    background-color: #E0E4CC; }
-  .box--color4 {
-    background-color: #F38630; }
-  .box--color5 {
-    background-color: #FA6900; }
-  .box--color6 {
-    background-color: #E94C6F; }
-  .box--color7 {
-    background-color: #542733; }
-  .box--color8 {
-    background-color: #5A6A62; }
-  .box--color9 {
-    background-color: #C6D5CD; }
-  .box--color10 {
-    background-color: #FDF200; }
-  .box--color11 {
-    background-color: #DB3340; }
-  .box--color12 {
-    background-color: #E8B71A; }
-  .box--color13 {
-    background-color: #F7EAC8; }
-  .box--color14 {
-    background-color: #1FDA9A; }
-  .box--color15 {
-    background-color: #28ABE3; }
-  .box--color16 {
-    background-color: #588C73; }
-  .box--color17 {
-    background-color: #F2E394; }
-  .box--color18 {
-    background-color: #F2AE72; }
-  .box--color19 {
-    background-color: #D96459; }
-  .box--color20 {
-    background-color: #8C4646; }
-  .box--color21 {
-    background-color: #D0C91F; }
-  .box--color22 {
-    background-color: #85C4B9; }
-  .box--color23 {
-    background-color: #008BBA; }
-  .box--color24 {
-    background-color: #DF514C; }
-  .box--color25 {
-    background-color: #DC403B; }
+/*best Prices*/
+.bestPrices {
+  text-align: right; }
+  .bestPrices__parrafosPrice {
+    color: #fff; }
+  .bestPrices .title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center; }
+  .bestPrices table {
+    border-collapse: collapse;
+    margin-bottom: 1vh; }
+  .bestPrices .box {
+    height: 140px;
+    width: 200px; }
+    .bestPrices .box--color1 {
+      background-color: #69D2E7; }
+    .bestPrices .box--color2 {
+      background-color: #A7DBDB; }
+    .bestPrices .box--color3 {
+      background-color: #E0E4CC; }
+    .bestPrices .box--color4 {
+      background-color: #F38630; }
+    .bestPrices .box--color5 {
+      background-color: #FA6900; }
+    .bestPrices .box--color6 {
+      background-color: #E94C6F; }
+    .bestPrices .box--color7 {
+      background-color: #542733; }
+    .bestPrices .box--color8 {
+      background-color: #5A6A62; }
+    .bestPrices .box--color9 {
+      background-color: #C6D5CD; }
+    .bestPrices .box--color10 {
+      background-color: #FDF200; }
+    .bestPrices .box--color11 {
+      background-color: #DB3340; }
+    .bestPrices .box--color12 {
+      background-color: #E8B71A; }
+    .bestPrices .box--color13 {
+      background-color: #F7EAC8; }
+    .bestPrices .box--color14 {
+      background-color: #1FDA9A; }
+    .bestPrices .box--color15 {
+      background-color: #28ABE3; }
+    .bestPrices .box--color16 {
+      background-color: #588C73; }
+    .bestPrices .box--color17 {
+      background-color: #F2E394; }
+    .bestPrices .box--color18 {
+      background-color: #F2AE72; }
+    .bestPrices .box--color19 {
+      background-color: #D96459; }
+    .bestPrices .box--color20 {
+      background-color: #8C4646; }
+    .bestPrices .box--color21 {
+      background-color: #D0C91F; }
+    .bestPrices .box--color22 {
+      background-color: #85C4B9; }
+    .bestPrices .box--color23 {
+      background-color: #008BBA; }
+    .bestPrices .box--color24 {
+      background-color: #DF514C; }
+    .bestPrices .box--color25 {
+      background-color: #DC403B; }
 
 .imagen {
   background-image: url(../img/img-divider-img.jpg);
