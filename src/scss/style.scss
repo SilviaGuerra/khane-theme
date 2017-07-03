@@ -51,17 +51,27 @@
   height: 700px;
 }
 
+.titulo_bestPrice{
+  padding: 50px;
+}
+
 @mixin tarjeta{
   border: 1px solid $color-green;
   width: 240px;
   height: 500px;
   text-align: center;
+  margin-top: 50px;
   margin-left: 45px;
   padding: 0;
 }
 
 #starter, #basic, #feature, #professional{
   @include tarjeta;
+}
+
+#feature{
+  border: 1px solid #e67e22;
+  margin-top: 20px;
 }
 
 .paquete_titulo{
@@ -90,4 +100,14 @@
 .blanco{
   background: $color-text;
   color: $color-blue;
+}
+
+.btn-cafe{
+  background: #443e44;
+  border: none;
+  color: $color-text;
+  width: 80px;
+  height: 30px;
+  margin: 30px;
+  font-size: 15px;
 }

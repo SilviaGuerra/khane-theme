@@ -96,13 +96,21 @@
   color: #fff;
   height: 700px; }
 
+.titulo_bestPrice {
+  padding: 50px; }
+
 #starter, #basic, #feature, #professional {
   border: 1px solid #27AD60;
   width: 240px;
   height: 500px;
   text-align: center;
+  margin-top: 50px;
   margin-left: 45px;
   padding: 0; }
+
+#feature {
+  border: 1px solid #e67e22;
+  margin-top: 20px; }
 
 .paquete_titulo {
   padding: 20px; }
@@ -125,5 +133,14 @@
 .blanco {
   background: #fff;
   color: #2C3E50; }
+
+.btn-cafe {
+  background: #443e44;
+  border: none;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin: 30px;
+  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
