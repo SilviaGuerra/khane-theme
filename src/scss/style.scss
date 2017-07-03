@@ -47,6 +47,73 @@
   float: left;
 }
 
+
+#bestPrice{
+  background: $color-blue;
+  color: $color-text;
+  height: 700px;
+}
+
+.titulo_bestPrice{
+  padding: 50px;
+}
+
+@mixin tarjeta{
+  border: 1px solid $color-green;
+  width: 240px;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 45px;
+  padding: 0;
+}
+
+#starter, #basic, #feature, #professional{
+  @include tarjeta;
+}
+
+#feature{
+  border: 1px solid #e67e22;
+  margin-top: 20px;
+}
+
+.paquete_titulo{
+  padding: 20px;
+}
+
+.verde{
+  background: $color-green;
+  padding: 30px;
+}
+
+.paquete_precio{
+  font-size: 40px;
+}
+
+.paquete_precio--chiquita{
+  font-size: 10px;
+  padding-top: 15px;
+}
+
+.paquete_contenido{
+  height: 35px;
+  padding: 10px;
+}
+
+.blanco{
+  background: $color-text;
+  color: $color-blue;
+}
+
+.btn-cafe{
+  background: #443e44;
+  border: none;
+  color: $color-text;
+  width: 80px;
+  height: 30px;
+  margin: 30px;
+  font-size: 15px;
+
 /*best Prices*/
 .bestPrices{
   text-align: right;
@@ -180,6 +247,7 @@ table {
 	    &__sociales{
 	    padding:20px;
 	    }
+
 
 
 
