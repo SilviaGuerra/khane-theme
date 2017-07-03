@@ -156,14 +156,14 @@ span {
   height: 30px;
   margin: 30px;
   font-size: 15px;
-
+}
 /*best Prices*/
 .bestPrices{
   text-align: right;
   &__parrafosPrice{
     @include parrafosPrice;
   }
-
+    }
 
 
 .title {
