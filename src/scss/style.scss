@@ -160,7 +160,7 @@ table {
   &--color25 {
   background-color: #DC403B;
   }
-
+}
 .imagen{
 	 background-image: url(../img/img-divider-img.jpg);
 	    whidth: 100%;
@@ -170,7 +170,15 @@ table {
 	    align-items:center;
 	    &__sociales{
 	    padding:20px;
+      color:$color-text;
 	    }
-
-
 }
+.footer{
+  background-color:$color-green;
+  &__informacion{
+  color:$color-text;
+  padding:10px;
+  text-align:center;
+  }
+}
+

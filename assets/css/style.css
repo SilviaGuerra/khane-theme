@@ -91,7 +91,6 @@
   padding: 12px;
   float: left; }
 
-
 .title {
   font-family: 'Raleway', sans-serif;
   text-align: center; }
@@ -162,7 +161,14 @@ table {
   justify-content: center;
   align-items: center; }
   .imagen__sociales {
-    padding: 20px; }
+    padding: 20px;
+    color: white; }
 
+.footer {
+  background-color: #27AD60; }
+  .footer__informacion {
+    color: white;
+    padding: 10px;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
