@@ -1,185 +1,57 @@
-.aboutUs {
-  background-color: #2C3E50;
-  text-align: center;
-  color: white; }
-  .aboutUs__parrafos {
-    text-align: justify;
-    padding-left: 20px; }
+/*
+Error: Invalid CSS after "...21276d701cb0763": expected "{", was "}"
+        on line 181 of src/scss/style.scss
 
-.barras__barra {
-  background-color: gray;
-  width: 100%;
-  height: 8px; }
-  .barras__barra--html {
-    background-color: #EE7239;
-    width: 80%; }
+176: 
+177: .title {
+178:   font-family: 'Raleway', sans-serif;
+179:   text-align: center;
+180: >>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763
+181: }
+182: 
+183: [class*="col-"] {
+184:     min-height: 7px;
+185:     padding: 12px;
+186:     float: left;
 
-.col-1 {
-  width: 8.33333%; }
-
-.col-2 {
-  width: 16.66667%; }
-
-.col-3 {
-  width: 25%; }
-
-.col-4 {
-  width: 33.33333%; }
-
-.col-5 {
-  width: 41.66667%; }
-
-.col-6 {
-  width: 50%; }
-
-.col-7 {
-  width: 58.33333%; }
-
-.col-8 {
-  width: 66.66667%; }
-
-.col-9 {
-  width: 75%; }
-
-.col-10 {
-  width: 83.33333%; }
-
-.col-11 {
-  width: 91.66667%; }
-
-.col-12 {
-  width: 100%; }
-
-.col-1-offset {
-  margin-left: 8.33333%; }
-
-.col-2-offset {
-  margin-left: 16.66667%; }
-
-.col-3-offset {
-  margin-left: 25%; }
-
-.col-4-offset {
-  margin-left: 33.33333%; }
-
-.col-5-offset {
-  margin-left: 41.66667%; }
-
-.col-6-offset {
-  margin-left: 50%; }
-
-.col-7-offset {
-  margin-left: 58.33333%; }
-
-.col-8-offset {
-  margin-left: 66.66667%; }
-
-.col-9-offset {
-  margin-left: 75%; }
-
-.col-10-offset {
-  margin-left: 83.33333%; }
-
-.col-11-offset {
-  margin-left: 91.66667%; }
-
-.col-12-offset {
-  margin-left: 100%; }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0px auto; }
-
-.row:before, .row:after {
-  content: " ";
-  display: table; }
-.row:after {
-  clear: both; }
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 12px;
-  float: left; }
-
-/*best Prices*/
-.bestPrices {
-  text-align: right; }
-  .bestPrices__parrafosPrice {
-    color: white; }
-  .bestPrices .title {
-    font-family: 'Raleway', sans-serif;
-    text-align: center; }
-  .bestPrices table {
-    border-collapse: collapse;
-    margin-bottom: 1vh; }
-  .bestPrices .box {
-    height: 140px;
-    width: 200px; }
-    .bestPrices .box--color1 {
-      background-color: #69D2E7; }
-    .bestPrices .box--color2 {
-      background-color: #A7DBDB; }
-    .bestPrices .box--color3 {
-      background-color: #E0E4CC; }
-    .bestPrices .box--color4 {
-      background-color: #F38630; }
-    .bestPrices .box--color5 {
-      background-color: #FA6900; }
-    .bestPrices .box--color6 {
-      background-color: #E94C6F; }
-    .bestPrices .box--color7 {
-      background-color: #542733; }
-    .bestPrices .box--color8 {
-      background-color: #5A6A62; }
-    .bestPrices .box--color9 {
-      background-color: #C6D5CD; }
-    .bestPrices .box--color10 {
-      background-color: #FDF200; }
-    .bestPrices .box--color11 {
-      background-color: #DB3340; }
-    .bestPrices .box--color12 {
-      background-color: #E8B71A; }
-    .bestPrices .box--color13 {
-      background-color: #F7EAC8; }
-    .bestPrices .box--color14 {
-      background-color: #1FDA9A; }
-    .bestPrices .box--color15 {
-      background-color: #28ABE3; }
-    .bestPrices .box--color16 {
-      background-color: #588C73; }
-    .bestPrices .box--color17 {
-      background-color: #F2E394; }
-    .bestPrices .box--color18 {
-      background-color: #F2AE72; }
-    .bestPrices .box--color19 {
-      background-color: #D96459; }
-    .bestPrices .box--color20 {
-      background-color: #8C4646; }
-    .bestPrices .box--color21 {
-      background-color: #D0C91F; }
-    .bestPrices .box--color22 {
-      background-color: #85C4B9; }
-    .bestPrices .box--color23 {
-      background-color: #008BBA; }
-    .bestPrices .box--color24 {
-      background-color: #DF514C; }
-    .bestPrices .box--color25 {
-      background-color: #DC403B; }
-
-.imagen {
-  background-image: url(../img/img-divider-img.jpg);
-  whidth: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .imagen__sociales {
-    padding: 20px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+src/scss/style.scss:181
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...21276d701cb0763\": expected \"{\", was \"}\"\A         on line 181 of src/scss/style.scss\A \A 176: \A 177: .title {\A 178:   font-family: 'Raleway', sans-serif;\A 179:   text-align: center;\A 180: >>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763\A 181: }\A 182: \A 183: [class*=\"col-\"] {\A 184:     min-height: 7px;\A 185:     padding: 12px;\A 186:     float: left;"; }

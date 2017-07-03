@@ -2,6 +2,7 @@
 @import "mixin";
 @import "aboutUs";
 
+
 @function anchoColumnas($columns) {
     @return percentage(($columns/12));
 }
@@ -31,6 +32,7 @@
 }
 
 .row {
+<<<<<<< HEAD
     &:before {
         content: " ";
         display: table;
@@ -39,6 +41,143 @@
         @extend .row:before;
         clear: both;
     }
+=======
+  &:before{
+    content: " ";
+    display: table;
+  }
+  &:after{
+    @extend .row:before;
+    clear: both;
+  }
+}
+
+[class*="col-"]{
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+#navg{
+  background-color: #27AD60;
+}
+
+
+#header{
+  background-image: url("../img/carousel-bg.jpg");
+  background-repeat: no-repeat;
+  color: $color-text;
+  height: 60vh;
+  text-align: center;
+}
+
+h1{
+  font-size: 35px
+}
+
+h3{
+ font-size: 20px;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+  color: $color-text;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  color: $color-text;
+}
+
+span {
+  margin: 0 100px;
+  font-weight: 900;
+  display: inline-block; }
+
+
+#bestPrice{
+  background: $color-blue;
+  color: $color-text;
+  height: 700px;
+}
+
+.titulo_bestPrice{
+  padding: 50px;
+}
+
+@mixin tarjeta{
+  border: 1px solid $color-green;
+  width: 240px;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 45px;
+  padding: 0;
+}
+
+#starter, #basic, #feature, #professional{
+  @include tarjeta;
+}
+
+#feature{
+  border: 1px solid #e67e22;
+  margin-top: 20px;
+}
+
+.paquete_titulo{
+  padding: 20px;
+}
+
+.verde{
+  background: $color-green;
+  padding: 30px;
+}
+
+.paquete_precio{
+  font-size: 40px;
+}
+
+.paquete_precio--chiquita{
+  font-size: 10px;
+  padding-top: 15px;
+}
+
+.paquete_contenido{
+  height: 35px;
+  padding: 10px;
+}
+
+.blanco{
+  background: $color-text;
+  color: $color-blue;
+}
+
+.btn-cafe{
+  background: #443e44;
+  border: none;
+  color: $color-text;
+  width: 80px;
+  height: 30px;
+  margin: 30px;
+  font-size: 15px;
+
+/*best Prices*/
+.bestPrices{
+  text-align: right;
+  &__parrafosPrice{
+    @include parrafosPrice;
+  }
+
+
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+>>>>>>> 0083a0915595bb76b13c51a8f21276d701cb0763
 }
 
 [class*="col-"] {
@@ -142,6 +281,7 @@
             background-color: #DC403B;
         }
     }
+
 }
         .imagen {
             background-image: url(../img/img-divider-img.jpg);
