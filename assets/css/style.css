@@ -91,6 +91,7 @@
   padding: 12px;
   float: left; }
 
+
 .title {
   font-family: 'Raleway', sans-serif;
   text-align: center; }
@@ -152,5 +153,16 @@ table {
     background-color: #DF514C; }
   .box--color25 {
     background-color: #DC403B; }
+
+.imagen {
+  background-image: url(../img/img-divider-img.jpg);
+  whidth: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .imagen__sociales {
+    padding: 20px; }
+
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+@import '_variables';
+
 @function anchoColumnas($columns) {
   @return percentage(($columns/12));
 }
@@ -8,10 +10,11 @@
   }
 }
 
-@for $numColumna from 1 through 12 {
-    .col-#{$numColumna}-offset {
-        margin-left: anchoColumnas($numColumna);
-    }
+@for $numColumna from 1 through 12{
+  .col-#{$numColumna}-offset{
+    margin-left:anchoColumnas($numColumna)
+  }
+
 }
 
 * {
@@ -42,6 +45,7 @@
   padding: 12px;
   float: left;
 }
+
 
 .title {
   font-family: 'Raleway', sans-serif;
@@ -156,5 +160,17 @@ table {
   &--color25 {
   background-color: #DC403B;
   }
+
+.imagen{
+	 background-image: url(../img/img-divider-img.jpg);
+	    whidth: 100%;
+	    height:500px;
+	    display:flex;
+	    justify-content:center;
+	    align-items:center;
+	    &__sociales{
+	    padding:20px;
+	    }
+
 
 }
