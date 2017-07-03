@@ -1,4 +1,5 @@
-@import '_variables';
+@import "variables";
+@import "mixin";
 
 @function anchoColumnas($columns) {
   @return percentage(($columns/12));
@@ -45,6 +46,14 @@
   padding: 12px;
   float: left;
 }
+
+/*best Prices*/
+.bestPrices{
+  text-align: right;
+  &__parrafosPrice{
+    @include parrafosPrice;
+  }
+
 
 
 .title {
@@ -171,6 +180,7 @@ table {
 	    &__sociales{
 	    padding:20px;
 	    }
+
 
 
 }
