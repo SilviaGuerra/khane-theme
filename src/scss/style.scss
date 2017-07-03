@@ -1,4 +1,5 @@
-@import '_variables';
+@import "variables";
+@import "mixin";
 
 @function anchoColumnas($columns) {
   @return percentage(($columns/12));
@@ -14,6 +15,7 @@
   .col-#{$numColumna}-offset{
     margin-left:anchoColumnas($numColumna)
   }
+
 }
 
 * {
@@ -44,6 +46,7 @@
   padding: 12px;
   float: left;
 }
+
 
 #bestPrice{
   background: $color-blue;
@@ -110,4 +113,142 @@
   height: 30px;
   margin: 30px;
   font-size: 15px;
+
+/*best Prices*/
+.bestPrices{
+  text-align: right;
+  &__parrafosPrice{
+    @include parrafosPrice;
+  }
+
+
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1vh;
+}
+
+.box{
+  height: 140px;
+  width: 200px;
+
+  &--color1 {
+  background-color: #69D2E7;
+  }
+
+  &--color2 {
+  background-color: #A7DBDB
+  }
+
+  &--color3 {
+  background-color: #E0E4CC;
+  }
+
+  &--color4 {
+  background-color: #F38630;
+  }
+
+  &--color5 {
+  background-color: #FA6900;
+  }
+
+  &--color6 {
+  background-color: #E94C6F;
+  }
+
+  &--color7 {
+  background-color: #542733;
+  }
+
+  &--color8 {
+  background-color: #5A6A62;
+  }
+
+  &--color9 {
+  background-color: #C6D5CD;
+  }
+
+  &--color10 {
+  background-color: #FDF200;
+  }
+
+  &--color11 {
+  background-color: #DB3340;
+  }
+
+  &--color12 {
+  background-color: #E8B71A;
+  }
+
+  &--color13 {
+  background-color: #F7EAC8;
+  }
+
+  &--color14 {
+  background-color: #1FDA9A;
+  }
+
+  &--color15 {
+  background-color: #28ABE3;
+  }
+
+  &--color16 {
+  background-color: #588C73;
+  }
+
+  &--color17 {
+  background-color: #F2E394;
+  }
+
+  &--color18 {
+  background-color: #F2AE72;
+  }
+
+  &--color19 {
+  background-color: #D96459;
+  }
+
+  &--color20 {
+  background-color: #8C4646;
+  }
+
+  &--color21 {
+  background-color: #D0C91F;
+  }
+
+  &--color22 {
+  background-color: #85C4B9;
+  }
+
+  &--color23 {
+  background-color: #008BBA;
+  }
+
+  &--color24 {
+  background-color: #DF514C;
+  }
+
+  &--color25 {
+  background-color: #DC403B;
+  }
+
+.imagen{
+	 background-image: url(../img/img-divider-img.jpg);
+	    whidth: 100%;
+	    height:500px;
+	    display:flex;
+	    justify-content:center;
+	    align-items:center;
+	    &__sociales{
+	    padding:20px;
+	    }
+
+
+
+
 }
