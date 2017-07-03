@@ -215,7 +215,19 @@ span {
 	    align-items:center;
 	    &__sociales{
 	    padding:20px;
+      color:$color-text;
 	    }
+
+}
+.footer{
+  background-color:$color-green;
+  &__informacion{
+  color:$color-text;
+  padding:10px;
+  text-align:center;
+  }
+}
+
 
 [class*="col-"] {
     min-height: 7px;
@@ -331,3 +343,4 @@ span {
                 padding: 20px;
             }
         }
+
