@@ -34,6 +34,42 @@
 .col-12 {
   width: 100%; }
 
+.col-1-offset {
+  margin-left: 8.33333%; }
+
+.col-2-offset {
+  margin-left: 16.66667%; }
+
+.col-3-offset {
+  margin-left: 25%; }
+
+.col-4-offset {
+  margin-left: 33.33333%; }
+
+.col-5-offset {
+  margin-left: 41.66667%; }
+
+.col-6-offset {
+  margin-left: 50%; }
+
+.col-7-offset {
+  margin-left: 58.33333%; }
+
+.col-8-offset {
+  margin-left: 66.66667%; }
+
+.col-9-offset {
+  margin-left: 75%; }
+
+.col-10-offset {
+  margin-left: 83.33333%; }
+
+.col-11-offset {
+  margin-left: 91.66667%; }
+
+.col-12-offset {
+  margin-left: 100%; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -54,5 +90,67 @@
   min-height: 7px;
   padding: 12px;
   float: left; }
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center; }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1vh; }
+
+.box {
+  height: 140px;
+  width: 200px; }
+  .box--color1 {
+    background-color: #69D2E7; }
+  .box--color2 {
+    background-color: #A7DBDB; }
+  .box--color3 {
+    background-color: #E0E4CC; }
+  .box--color4 {
+    background-color: #F38630; }
+  .box--color5 {
+    background-color: #FA6900; }
+  .box--color6 {
+    background-color: #E94C6F; }
+  .box--color7 {
+    background-color: #542733; }
+  .box--color8 {
+    background-color: #5A6A62; }
+  .box--color9 {
+    background-color: #C6D5CD; }
+  .box--color10 {
+    background-color: #FDF200; }
+  .box--color11 {
+    background-color: #DB3340; }
+  .box--color12 {
+    background-color: #E8B71A; }
+  .box--color13 {
+    background-color: #F7EAC8; }
+  .box--color14 {
+    background-color: #1FDA9A; }
+  .box--color15 {
+    background-color: #28ABE3; }
+  .box--color16 {
+    background-color: #588C73; }
+  .box--color17 {
+    background-color: #F2E394; }
+  .box--color18 {
+    background-color: #F2AE72; }
+  .box--color19 {
+    background-color: #D96459; }
+  .box--color20 {
+    background-color: #8C4646; }
+  .box--color21 {
+    background-color: #D0C91F; }
+  .box--color22 {
+    background-color: #85C4B9; }
+  .box--color23 {
+    background-color: #008BBA; }
+  .box--color24 {
+    background-color: #DF514C; }
+  .box--color25 {
+    background-color: #DC403B; }
 
 /*# sourceMappingURL=style.css.map */
