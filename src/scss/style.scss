@@ -1,5 +1,4 @@
 @import "variables";
-@import "mixin";
 
 @function anchoColumnas($columns) {
   @return percentage(($columns/12));
@@ -49,13 +48,27 @@
 
 /*best Prices*/
 .bestPrices{
-  text-align: right;
+  text-align: center;
+  background: $color-blue;
+  h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    color: $color-text;
+  }
   &__parrafosPrice{
-    @include parrafosPrice;
+    font-family: 'Roboto', sans-serif;
+    color:lighten(black, 80%);
+    font-size: 2.5vh;
+   }&--orange{
+     color:$color-orange;
+   }
   }
 
-
-
+.subtitle{
+  color:$color-text;
+  font-size: 1.5vh;
+}
 .title {
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -169,6 +182,7 @@ table {
   &--color25 {
   background-color: #DC403B;
   }
+}
 
 .imagen{
 	 background-image: url(../img/img-divider-img.jpg);
@@ -180,7 +194,4 @@ table {
 	    &__sociales{
 	    padding:20px;
 	    }
-
-
-
 }
