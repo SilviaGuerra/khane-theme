@@ -55,4 +55,37 @@
   padding: 12px;
   float: left; }
 
+#navg {
+  background-color: #27AD60; }
+
+#header {
+  background-image: url("../img/carousel-bg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  height: 60vh;
+  text-align: center; }
+
+h1 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 20px; }
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+  color: white; }
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  color: white; }
+
+span {
+  margin: 0 100px;
+  font-weight: 900;
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
