@@ -55,4 +55,14 @@
   padding: 12px;
   float: left; }
 
+.imagen {
+  background-image: url(../img/img-divider-img.jpg);
+  whidth: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .imagen__sociales {
+    padding: 20px; }
+
 /*# sourceMappingURL=style.css.map */
