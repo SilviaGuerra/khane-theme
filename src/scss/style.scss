@@ -44,3 +44,50 @@
   padding: 12px;
   float: left;
 }
+
+#bestPrice{
+  background: $color-blue;
+  color: $color-text;
+  height: 700px;
+}
+
+@mixin tarjeta{
+  border: 1px solid $color-green;
+  width: 240px;
+  height: 500px;
+  text-align: center;
+  margin-left: 45px;
+  padding: 0;
+}
+
+#starter, #basic, #feature, #professional{
+  @include tarjeta;
+}
+
+.paquete_titulo{
+  padding: 20px;
+}
+
+.verde{
+  background: $color-green;
+  padding: 30px;
+}
+
+.paquete_precio{
+  font-size: 40px;
+}
+
+.paquete_precio--chiquita{
+  font-size: 10px;
+  padding-top: 15px;
+}
+
+.paquete_contenido{
+  height: 35px;
+  padding: 10px;
+}
+
+.blanco{
+  background: $color-text;
+  color: $color-blue;
+}

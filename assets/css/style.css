@@ -91,4 +91,39 @@
   padding: 12px;
   float: left; }
 
+#bestPrice {
+  background: #2C3E50;
+  color: #fff;
+  height: 700px; }
+
+#starter, #basic, #feature, #professional {
+  border: 1px solid #27AD60;
+  width: 240px;
+  height: 500px;
+  text-align: center;
+  margin-left: 45px;
+  padding: 0; }
+
+.paquete_titulo {
+  padding: 20px; }
+
+.verde {
+  background: #27AD60;
+  padding: 30px; }
+
+.paquete_precio {
+  font-size: 40px; }
+
+.paquete_precio--chiquita {
+  font-size: 10px;
+  padding-top: 15px; }
+
+.paquete_contenido {
+  height: 35px;
+  padding: 10px; }
+
+.blanco {
+  background: #fff;
+  color: #2C3E50; }
+
 /*# sourceMappingURL=style.css.map */
